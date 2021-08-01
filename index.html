@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Youtube</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <div class="topnavbar">
+        <!-- logo section -->
+        <div class="leftTop">
+            <div class="hamberger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="logo">
+                <img src="icon.jpg" alt="">
+            </div>
+        </div>
+
+        <!-- searchbar -->
+        <div id="middleTop">
+            <div class="searchbar">
+                <div><input type="text" id="inputText" placeholder="Search"></div>
+                <div id="searchButton" onclick="getData()"><i class="fa">&#xf002;</i></div>
+            </div>
+            <div class="micbar"><i style="font-size:22px; margin-top: 8px; margin-left: 10px;" class="fa">&#xf130;</i>
+            </div>
+        </div>
+
+        <!-- usersection -->
+        <div class="rightTop">
+            <div><i class="fa fa-video-camera" style="font-size: 20px;" aria-hidden="true"></i></div>
+            <div class="icon">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="bellicon"><i style="font-size:20px" class="fa">&#xf0f3;</i></div>
+            <div class="usericon"><img src="user.png" alt=""></div>
+        </div>
+
+    </div>
+
+
+    <div class="bottomSection">
+        <!-- right navbar -->
+        <div class="rightNav">Right Navbar</div>
+
+
+        <!-- dynamic feed and search results -->
+        <div id="feed"></div>
+    </div>
+</body>
+
+</html>
+<script src="index.js"></script>
